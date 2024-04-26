@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    background-image: url(img/fondo1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+ label{
+    display: block;
+    margin-bottom: 5px;
+    color: red;
+ }
+
+ form {
+    width: 170px;
+    padding: 20px;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px red;
+    background-color: white;
+}
+  
+  .titulo{  
+    text-align: center;
+    margin-left: 10%;
+    color: white;
+  }
+
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #df1d0f;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: #0056b3;
+    
+}
+
